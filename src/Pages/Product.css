@@ -139,10 +139,11 @@
 @media(max-width:468px){
 
 .product .imag .imagMain img{
-    width: 190px
+    width: 210px;
+    height:400px;
 }
 .product .imag .imagSub img{
-    width: 90px;
-    height: 132px;
+    width: 70px;
+    height: 92px;
 }
 }
