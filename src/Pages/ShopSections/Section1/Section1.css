@@ -1,7 +1,12 @@
 .section1{
     background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
     height: 100vh;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
+}
+@media(max-width:430px){
+    .section1{
+        margin-bottom:-280px
+    }
 }
 .section1 .container{
     align-items: center;
