@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import logo from "../../Assets/logo_big.png";
 import cart from "../../Assets/cart_icon.png";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 function Navbar() {
     const state = useSelector(state => state.operation);
@@ -16,7 +16,7 @@ function Navbar() {
                 <div className="container-fluid">
                     <div className="logo">
                         <img src={logo} alt="not found.." />
-                        <p className="navbar-brand" href="#">Buyerly</p>
+                        <Link to={'/'}><p className="navbar-brand" href="#">Buyerly</p></Link>
                     </div>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li className="nav-item">
